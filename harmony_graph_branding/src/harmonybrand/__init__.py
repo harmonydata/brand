@@ -18,12 +18,12 @@ def harmonydark(fig):
         xaxis_title="Date",
         yaxis_title="Postings per million",
         font=dict(
-            family="Pragmatica Regular.ttf",
+            family="Pragmatica",
             size=24,
             color="rgb(255,255,255)"
         ),
         title_font=dict(
-            family="Montserrat-Bold.ttf",
+            family="Montserrat",
             size=48,
             color="rgb(99,230,178)"
         ),
@@ -56,12 +56,12 @@ def harmonylight(fig):
         xaxis_title="Date",
         yaxis_title="Postings per million",
         font=dict(
-            family="Pragmatica Regular.ttf",
+            family="Pragmatica",
             size=24,
             color="rgb(0,0,0)"
         ),
         title_font=dict(
-            family="Montserrat-Bold.ttf",
+            family="Montserrat",
             size=48,
             color="rgb(54,99,237)"
         ),

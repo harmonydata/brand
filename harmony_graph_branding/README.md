@@ -19,7 +19,11 @@ fig = px.line(x=[1,2,3], y=[3,1,2],
 
 harmonybrand.harmonydark(fig)
 
-fig.show(renderer="png")
+fig.show()
+
+fig.write_image("harmony_dark.svg")
+
+!convert harmony_dark.svg harmony_dark.png
 ```
 
 ![light](harmony_dark.png)
@@ -37,7 +41,11 @@ fig = px.line(x=[1,2,3], y=[3,1,2],
 
 harmonybrand.harmonylight(fig)
 
-fig.show(renderer="png")
+fig.show()
+
+fig.write_image("harmony_light.svg")
+
+!convert harmony_light.svg harmony_light.png
 ```
 
 ![light](harmony_light.png)
