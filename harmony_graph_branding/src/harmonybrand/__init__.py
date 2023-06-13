@@ -23,7 +23,7 @@ def harmonydark(fig):
             color="rgb(255,255,255)"
         ),
         title_font=dict(
-            family="Montserrat-ExtraBold.ttf",
+            family="Montserrat-Bold.ttf",
             size=48,
             color="rgb(99,230,178)"
         ),
@@ -61,7 +61,7 @@ def harmonylight(fig):
             color="rgb(0,0,0)"
         ),
         title_font=dict(
-            family="Montserrat-ExtraBold.ttf",
+            family="Montserrat-Bold.ttf",
             size=48,
             color="rgb(54,99,237)"
         ),
