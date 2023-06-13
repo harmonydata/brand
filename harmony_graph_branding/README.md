@@ -8,6 +8,8 @@ python setup.py install
 
 ## Usage
 
+### Dark theme
+
 ```
 import harmonybrand
 
@@ -23,6 +25,8 @@ fig.show(renderer="png")
 ![light](harmony_dark.png)
 
 or
+
+### Light theme
 
 ```
 import harmonybrand
