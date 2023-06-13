@@ -18,7 +18,7 @@ def harmonydark(fig):
         xaxis_title="Date",
         yaxis_title="Postings per million",
         font=dict(
-            family="Pragmatica-Regular.ttf",
+            family="Pragmatica Regular.ttf",
             size=24,
             color="rgb(255,255,255)"
         ),
@@ -56,7 +56,7 @@ def harmonylight(fig):
         xaxis_title="Date",
         yaxis_title="Postings per million",
         font=dict(
-            family="Pragmatica-Regular.ttf",
+            family="Pragmatica Regular.ttf",
             size=24,
             color="rgb(0,0,0)"
         ),
@@ -76,7 +76,3 @@ def harmonylight(fig):
     fig.update_yaxes(showline=True, linewidth=1, linecolor='#cccccc', gridcolor='#cccccc')
 
     fig.update_traces(line_color="rgb(54,99,237)")
-
-    fig.show()
-
-
