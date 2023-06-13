@@ -7,7 +7,7 @@ import plotly.express as px
 fig = px.line(x=[1,2,3], y=[3,1,2],
                 title="<b>Receiver operating characteristic</b>")
 
-harmonybrand.harmony_dark(fig)
+harmonybrand.harmonydark(fig)
 
 fig.show(renderer="png")
 ```
@@ -21,7 +21,7 @@ import plotly.express as px
 fig = px.line(x=[1,2,3], y=[3,1,2],
                 title="<b>Receiver operating characteristic</b>")
 
-harmonybrand.harmony_light(fig)
+harmonybrand.harmonylight(fig)
 
 fig.show(renderer="png")
 ```
