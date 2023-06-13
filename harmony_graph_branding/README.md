@@ -49,5 +49,3 @@ fig.write_image("harmony_light.svg")
 ```
 
 ![light](harmony_light.png)
-
-You need TTF files in same folder: `Montserrat-ExtraBold.ttf` and `Pragmatica-Regular.ttf`.
