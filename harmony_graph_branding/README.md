@@ -1,4 +1,12 @@
-# Usage
+# Python library to produce Harmony branded graphs in Plotly
+
+## Installation
+
+```
+python setup.py install
+```
+
+## Usage
 
 ```
 import harmonybrand
@@ -11,6 +19,8 @@ harmonybrand.harmonydark(fig)
 
 fig.show(renderer="png")
 ```
+
+![light](harmony_dark.png)
 
 or
 
@@ -25,5 +35,7 @@ harmonybrand.harmonylight(fig)
 
 fig.show(renderer="png")
 ```
+
+![light](harmony_light.png)
 
 You need TTF files in same folder: `Montserrat-ExtraBold.ttf` and `Pragmatica-Regular.ttf`.
