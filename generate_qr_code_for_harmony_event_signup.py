@@ -22,7 +22,7 @@ QRcode = qrcode.QRCode(
 )
  
 # taking url or text
-url = 'https://harmonydata.ac.uk/event-signup'
+url = 'https://harmonydata.ac.uk/welcome'
  
 # adding URL or text to QRcode
 QRcode.add_data(url)
@@ -43,6 +43,6 @@ pos = ((QRimg.size[0] - logo.size[0]) // 2,
 QRimg.paste(logo, pos)
  
 # save the QR code generated
-QRimg.save('harmony_event_signup_qr_code.png')
+QRimg.save('harmony_welcome_qr_code.png')
  
 print('QR code generated!')
